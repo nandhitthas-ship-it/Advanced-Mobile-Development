@@ -1,0 +1,24 @@
+name: bite_local
+description: A feature-rich food ordering prototype for Advanced Mobile Development.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^17.2.1
+  geolocator: ^12.0.0
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
